@@ -42,4 +42,4 @@ function peorParidad(nump){
     }
 }
 console.log("Peor paridad")
-console.log(mejorParidad(3))
+console.log(peorParidad(3))
