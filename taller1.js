@@ -24,11 +24,7 @@ console.log(resolvedor(1,5,4))
 //Mejor paridad
 
 function mejorParidad(nump){
-    if (nump % 2 === 0){
-        return ["El numero es par" + " " +nump]
-    }else{
-        return  ["El numero es impar" +" "+ nump]
-    }
+    return nump % 2 ===0 
 }
 console.log("Mejor paridad")
 console.log(mejorParidad(2))
